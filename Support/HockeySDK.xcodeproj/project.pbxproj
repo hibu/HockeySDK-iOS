@@ -3372,7 +3372,7 @@
 		};
 		BB14FF761DC381E100817AFD /* Release Store */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E45A90E1B78DB0C002CA772 /* default.xcconfig */;
+			baseConfigurationReference = B29855421D85EB5D007FF452 /* allfeatures.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -3651,7 +3651,7 @@
 		};
 		BB14FF7E1DC381EA00817AFD /* Release Sales */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E45A90E1B78DB0C002CA772 /* default.xcconfig */;
+			baseConfigurationReference = B29855421D85EB5D007FF452 /* allfeatures.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -3930,7 +3930,7 @@
 		};
 		BB14FF861DC381F200817AFD /* Release QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E45A90E1B78DB0C002CA772 /* default.xcconfig */;
+			baseConfigurationReference = B29855421D85EB5D007FF452 /* allfeatures.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -4209,7 +4209,7 @@
 		};
 		E400563C148D79B500EB22B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E754DC61621BC170070AB92 /* HockeySDKBase.xcconfig */;
+			baseConfigurationReference = B29855421D85EB5D007FF452 /* allfeatures.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
