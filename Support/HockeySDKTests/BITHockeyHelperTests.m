@@ -1,5 +1,5 @@
 //
-//  HockeySDKPrivateTests.m
+//  BITHockeyHelperTests.m
 //  HockeySDK
 //
 //  Created by Andreas Linde on 25.09.13.
@@ -73,12 +73,6 @@
   assertThatBool([resultString isEqualToString:@"Placeholder"], isTrue());
 }
 
-- (void)testUUIDPreiOS6 {
-  NSString *resultString = bit_UUIDPreiOS6();
-  assertThat(resultString, notNilValue());
-  assertThatInteger([resultString length], equalToInteger(36));
-}
-
 - (void)testUUID {
   NSString *resultString = bit_UUID();
   assertThat(resultString, notNilValue());
@@ -116,7 +110,7 @@
   // Regular icon names
   NSString *validIconPath = @"AppIcon";
   NSString *validIconPath2x = @"AppIcon@2x";
-  NSString *expected = ([UIScreen mainScreen].scale == 2.0f) ? validIconPath2x : validIconPath;
+  NSString *expected = ([UIScreen mainScreen].scale >= 2.0f) ? validIconPath2x : validIconPath;
 
   
   // No valid icons defined at all
